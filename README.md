@@ -70,7 +70,16 @@
 
 ### Dictionary with hashed map-
 
-1. 
+1. Hash function:
+
+	**Algorithm-**
+	Hash function maps the key to index of list
+	In the List, the Key-value pairs are stored at the hashed index
+	
+```
+	Time Complexity: O(1) - in best case, O(n) - in worst case when hash of keys is same, so index is selected via linear probing.
+
+```
 
 
 ### Sorting Algorithms-
@@ -116,7 +125,7 @@
 
 	**Average Case**
 	
-	Time Complexity: O(n**2)
+	Time Complexity: O(n*log(n))
 	
 	Space Complexity: O(n) --> n elements are stored in n list.
 	
@@ -147,7 +156,7 @@
 	
 	**Worst Case**
 	
-	Time Complexity: O(n**2)
+	Time Complexity: O(n**2) --> non-ideal partition (partition based on pivot element)
 	
 	Space Complexity: O(n)
 	
